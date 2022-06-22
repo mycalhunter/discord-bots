@@ -31,7 +31,7 @@ const affirmations = [
     "If you're going through hell, keep going. — Winston Churchill",
     "Change what you can, manage what you can't. — Raymond McCauley"
 ]
-cron.schedule('00 32 16 * * 0-6', function() { // second, minute, hour, day of month, month, day of week (0-6 = Sun-Sat) // 12:00:00 PM
+cron.schedule('00 09 17 * * 0-6', function() { // second, minute, hour, day of month, month, day of week (0-6 = Sun-Sat) // 12:00:00 PM
     const channel = client.channels.cache.get(CHANNEL_ID) // discord channel id
 
     let affirmation = affirmations[Math.floor(Math.random()*affirmations.length)]
