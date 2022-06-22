@@ -2,7 +2,7 @@
 module.exports = {
     //Your bot data
     bot: {
-        token: 'OTg4NDM0MDAyNDkyOTQwMzA4.GYdlq6.k0jnNuThDUNg0UoHliPQ-y9vKNArL-GrQBoyWw', //Your bot token - https://tinyurl.com/discordbot-token
+        token: 'TOKEN', //Your bot token - https://tinyurl.com/discordbot-token
         prefix: '!', //Your custom prefix of the bot, like "!" or "."
         status: '{onlinePlayers}/{maxPlayers} online', //Custom activity/status text
         activity: 'WATCHING' //You can choose: PLAYING, LISTENING, WATCHING, COMPETING
@@ -10,10 +10,10 @@ module.exports = {
 
     //Your minecraft server data
     server: {
-        name: 'RiotCraft', //Your server name
+        name: 'NAME', //Your server name
         type: 'java', //"java" or "bedrock"
-        ip: 'riotcraft.my.pebble.host', //IP of your server - do not include port - e.g. "mc.hypixel.net"
-        port: '25565', //PORT of your server - empty => default port (BE 19132, JA 25565)
+        ip: 'IP', //IP of your server - do not include port - e.g. "mc.hypixel.net"
+        port: 'PORT', //PORT of your server - empty => default port (BE 19132, JA 25565)
         icon: '', //Link to icon - like "https://website.com/icon.png"
         version: '1.19', //Minecraft version of sever
         vote: '' //Vote link - like "https://minecraftpocket-servers.com/server/80103/vote/"
@@ -57,10 +57,10 @@ module.exports = {
     statusCH: {
         time: '5min', //How long should the status always be updated? - like "3min", "20s" or "1min" etc.
         guild: {
-            id: '570073628406710272', // server ID
+            id: 'SERVER ID', // server ID
         },
         channel: {
-            id: '872115880547479552', // server-status channel ID
+            id: 'CHANNEL ID', // server-status channel ID
         }
     },
 
